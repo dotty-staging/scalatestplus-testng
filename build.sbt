@@ -106,7 +106,7 @@ pomExtra := (
 )
 
 // Temporary disable publishing of doc in dotty, can't get it to build.
-publishArtifact in (Compile, packageDoc) := !scalaBinaryVersion.value.startsWith("3.")
+publishArtifact in (Compile, packageDoc) := !scalaBinaryVersion.value.startsWith("3")
 
 def docTask(docDir: File, resDir: File, projectName: String): File = {
   val docLibDir = docDir / "lib"
