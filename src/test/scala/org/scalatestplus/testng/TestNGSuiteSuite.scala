@@ -21,6 +21,7 @@ import org.scalatestplus.testng.testpackage._
 import org.scalatest.fixture
 import org.scalatestplus.testng.SharedHelpers.EventRecordingReporter
 
+/*
   class TestNGSuiteSuite extends funsuite.AnyFunSuite {
 
     test("Reporter should be notified when test passes") {
@@ -46,7 +47,7 @@ import org.scalatestplus.testng.SharedHelpers.EventRecordingReporter
     }
 
     test("If a test fails due to an exception, Report should have the exception") {
-      
+
       val testReporter = new EventRecordingReporter
 
       // when
@@ -170,6 +171,7 @@ import org.scalatestplus.testng.SharedHelpers.EventRecordingReporter
     class SuiteWithBeforeAndAfterAnnotations extends TestNGSuite {
     }
   }
+  */
 }
 
 
